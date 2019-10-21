@@ -48,10 +48,10 @@ bin/magento maintenance:disable
 
 ### bu.mage2.pro
 php7.1 bin/magento maintenance:enable
-composer remove beverageuniverse/core
+php7.1 /usr/local/bin/composer remove beverageuniverse/core
 rm -rf composer.lock
-composer clear-cache
-composer require beverageuniverse/core:*
+php7.1 /usr/local/bin/composer clear-cache
+php7.1 /usr/local/bin/composer require beverageuniverse/core:*
 php7.1 bin/magento setup:upgrade
 rm -rf var/di var/generation generated/code
 php7.1 bin/magento setup:di:compile
