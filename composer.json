@@ -1,6 +1,6 @@
 {
 	"name": "beverageuniverse/core"
-	,"version": "0.0.4"
+	,"version": "0.0.5"
 	,"description": "A custom module for beverageuniverse.com (Magento 2)"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/beverageuniverse/core"
@@ -11,7 +11,7 @@
 		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
 		,"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=5.3.7"}
+	,"require": {"mage2pro/core": ">=5.3.8"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Beverage\\Core\\": ""}}
 	,"keywords": ["Magento 2"]
 }
