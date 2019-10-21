@@ -47,6 +47,7 @@ bin/magento maintenance:disable
 ```
 
 ### bu.mage2.pro
+```
 php7.1 bin/magento maintenance:enable
 php7.1 /usr/local/bin/composer remove beverageuniverse/core
 rm -rf composer.lock
@@ -66,3 +67,4 @@ php7.1 bin/magento setup:static-content:deploy \
 	--theme Magento/Beverage \
 	-f en_US
 php7.1 bin/magento maintenance:disable
+```
